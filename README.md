@@ -7,6 +7,8 @@ This directory contains the Python source code for discovering the exact governi
 - **DataGenerator**: This folder contains the data generator for the studied dynamcal system examples.
 - **Optimizer**: The CS_MIO optimizer is included in this folder for training to obtain the governing equations of dynamical systems.
 - **test_xx**: These are the testing code to obtain the goverining equations for a specific dynamical system by directly running it.
+- **Util**: This directory contains the necessary tools for smoothing noise by total variation
+- **Models**: This directry contains the tool for library construction.
 - **docs**: The resulting figures for the learned models.
 
 
