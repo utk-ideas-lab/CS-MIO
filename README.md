@@ -12,7 +12,7 @@ This directory contains the Python source code for discovering the exact governi
 - **docs**: The resulting figures for the learned models.
 
 
-The time series data of state variables $\mathbf{x}$ are collected in a time instants $t_1,t_2,\dots,t_N$ and organize into two matrices $\mathbf{X}$ and $\dot{\mathbf{X}}$. The augmented library matrix $\boldsymbol{\Theta}(\mathbf{X})$ is established according to the constructed term library. We then apply the CS-MIO algorithm to uncover each equation.
+The time series data of state variables $\mathbf{x}$ are collected in a time instants $t_1,t_2,\dots,t_N$ and organized into two matrices $\mathbf{X}$ and $\dot{\mathbf{X}}$. The augmented library matrix $\boldsymbol{\Theta}(\mathbf{X})$ is established according to the constructed term library. We then apply the CS-MIO algorithm to uncover each equation by solving the resuling discrete optimization problem, i.e., to identify a term is included in the equation (1) or not (0).
 
 **How to use CS-MIO**
 
