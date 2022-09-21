@@ -87,7 +87,7 @@ $\dot{y}  = \omega x + \mu y + Ay(x^2+y^2).$
 
 The trajectories for the ground truth, the CS-MIO learned dynamical system with additive Gaussian noise $N(0,3^2 I)$ to $\dot{\mathbf{x}}$ and $N(0, 0.015^2 I)$ to $\mathbf{x}$ are as below.
 
-<img src="./docs/Hopf_Groundtruth_traj.PNG" width="300"><img src="./docs/Hopf_Gaussian_3_traj.PNG" width="300"><img src="./docs/Hopf_TVD_0.015_traj.PNG" width="300">
+<img src="./docs/Hopf_Groundtruth_traj.PNG" width="250"><img src="./docs/Hopf_Gaussian_3_traj.PNG" width="250"><img src="./docs/Hopf_TVD_0.015_traj.PNG" width="250">
 
 -**Logistic map**
 
@@ -99,7 +99,7 @@ Similar to Hopf normal form, we treat $r$ as an additional variable and use 10 v
 
 The trajectories of the ground truth and the CS-MIO learned system under Gaussian noise $N(0,0.6^2)$ to $x_n$ are as below.
 
-<img src="./docs/Logisticmap_Groundtruth_traj.jpeg" width="450"><img src="./docs/Logisticmap_0.2_CSMIO_traj.jpeg" width="450">
+<img src="./docs/Logisticmap_Groundtruth_traj.jpeg" width="500"><img src="./docs/Logisticmap_0.2_CSMIO_traj.jpeg" width="500">
 
 ### Vortex shedding behind a cylinder
 
@@ -113,4 +113,4 @@ $\dot{z}  = -\lambda (z-x^2 -y^2).$
 
 The trajectories of the ground truth, CS-MIO learned systems with second order polynomials and third order polynomials are shown as below, respectively. See details in test_cylinder.
 
-<img src="./docs/Cylinder_groundtruth.PNG" width="300"><img src="./docs/Cylinder_2order_CS_MIO.PNG" width="300"><img src="./docs/Cylinder_3order_CS_MIO.PNG" width="300">
+<img src="./docs/Cylinder_groundtruth.PNG" width="250"><img src="./docs/Cylinder_2order_CS_MIO.PNG" width="250"><img src="./docs/Cylinder_3order_CS_MIO.PNG" width="250">
